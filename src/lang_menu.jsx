@@ -18,7 +18,7 @@ export default function LangMenu() {
           <button onClick={()=>handleClick('es')} >
             Spanish
           </button>
-          <button onClick={()=>handleClick('cz')} >
+          <button onClick={()=>handleClick('cs')} >
             Czech
          </button>
          <button onClick={()=>handleClick('fr')} >
