@@ -38,3 +38,18 @@ button {
   text-align: justify;
   font-size: 20px
 }
+
+a {
+  color: white;
+  font-size: 10px;
+}
+
+.bottomSection {
+  align-content: center;
+ text-align: center;
+}
+
+.github {
+  font-size: 30px;
+  padding-bottom: 80px;
+}
