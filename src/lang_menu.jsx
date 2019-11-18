@@ -1,17 +1,14 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 
 export default function LangMenu() {
    
-    const { t } = useTranslation();
-
     function handleClick(language) {
       i18next.changeLanguage(language);
     }
     return (
 <div>
-<nav style={{ width: '100%', padding: '2rem 0', backgroundColor:'gray' }}>
+<nav style={{ width: '100%', padding: '2rem 0' }}>
           <button onClick={()=>handleClick('en')} >
             English
           </button>
