@@ -7,7 +7,7 @@ export default function LangMenu(props) {
   }
   return (
     <div {...props}>
-      <nav style={{ width: "100%", padding: "2rem 0" }}>
+      <nav style={{ width: "100%", padding: "2rem 0 " }}>
         <button onClick={() => handleClick("en")}>English</button>
         <button onClick={() => handleClick("es")}>Spanish</button>
         <button onClick={() => handleClick("cs")}>Czech</button>
